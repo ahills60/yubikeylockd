@@ -16,8 +16,8 @@
 // #define kMyProductID	0x0111 // Product String:   2 "Yubikey NEO OTP+CCID"
 // #define kMyProductID	0x0114 // Product String:   2 "Yubikey NEO OTP+U2F"
 // #define kMyProductID	0x0403 // Product String:   2 "Yubikey 4 OTP+U2F"
-#define kMyProductID	0x0116   // Product String:   2 "Yubikey NEO OTP+U2F+CCID"
-
+// #define kMyProductID	0x0116   // Product String:   2 "Yubikey NEO OTP+U2F+CCID"
+#define kMyProductID	0x0407   // Product String:   2 "Yubikey 4 OTP+U2F+CCID"
 
 typedef struct MyPrivateData {
     io_object_t			notification;
